@@ -27,7 +27,7 @@ export default function PhotoBanner() {
           </p>
           <div className="mt-2">
             <button className="flex gap-2 items-center px-4 py-2 text-2xl leading-8 bg-white border-t-2 border-solid cursor-pointer border-t-sky-400 text-neutral-950 max-md:text-xl max-sm:px-3 max-sm:py-1.5 max-sm:text-lg">
-              <span>Let's Talk</span>
+              <span>Let&apos;s Talk</span>
               <div
                 dangerouslySetInnerHTML={{
                   __html:

@@ -47,7 +47,7 @@ export default function OurGoal() {
             </article>
             <button className="flex gap-2 items-center px-4 py-2 bg-white border-2 border-sky-400 duration-200 cursor-pointer">
               <span className="text-2xl leading-8 capitalize text-neutral-950">
-                Let's Work Together
+                Let&apos;s Work Together
               </span>
               <svg
                 width="25"
