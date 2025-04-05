@@ -9,8 +9,8 @@ export function HeroSection() {
 
             <Navbar />
 
-            <article className="flex absolute flex-col gap-6 items-end right-[242px] top-[228px] w-[645px] max-md:right-[50px] max-md:w-[500px] max-sm:right-5 max-sm:px-5 max-sm:w-full">
-                <header className="flex flex-col justify-center items-end w-full">
+            <article className="flex absolute flex-col gap-6 items-end right-[242px] top-[128px] w-[645px] max-md:right-[50px] max-md:w-[500px] max-sm:right-5 max-sm:px-5 max-sm:w-full">
+                <header className="relative z-2 flex flex-col justify-center items-end w-full">
                     <h1 className="w-full text-5xl font-extrabold text-right uppercase leading-[67.2px] text-slate-900 max-md:text-4xl max-sm:text-3xl">
                         modulars
                     </h1>
@@ -18,7 +18,7 @@ export function HeroSection() {
                         Solutions for Every Need
                     </h2>
                 </header>
-                <p className="text-sm leading-7 text-right text-slate-900 w-[435px] max-md:w-full max-sm:text-xs">
+                <p className="relative z-2 text-sm leading-7 text-right text-slate-900 w-[435px] max-md:w-full max-sm:text-xs">
                     Equipped with customizable software and seamless equipment
                     integration, we ensure that your operational needs are met with
                     precision and efficiency.
