@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.gradient-title {
+  background: linear-gradient(269deg, #117EE4 43.24%, #ED5D5D 70.74%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.gradient-background {
+  background: linear-gradient(269deg, #D0E6FB 43.24%, #FDEEEE 70.74%);
+}
+/* Estilo para el contenedor del carrusel */
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Estilo para el contenido que se desplaza */
+.carousel-content {
+  display: flex;
+  gap: 8px;
+  animation: marquee 1000s linear infinite; /* Aquí ajustamos la velocidad de la animación */
+}
+
+/* Definimos la animación para el desplazamiento */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Oculta scrollbar en todos los navegadores */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
 }
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Opera */
+}
+
+
