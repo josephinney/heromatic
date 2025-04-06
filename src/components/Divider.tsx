@@ -33,9 +33,11 @@ function Divider() {
     }
 
     return (
-        
-        <div className="top-0 z-10 sticky w-full flex w-[1440px] h-[59px] px-[271px] py-[17px] justify-center items-center gap-[10px] shrink-0 bg-[#0073FA]">
-            <p className="w-full h-auto text-white font-barlow text-[16px] not-italic font-semibold leading-[200%] text-center">No long waits, Our service is fast and adapts seamlessly to your current setup.</p>
+
+        <div className="top-0 z-10 sticky w-full flex justify-center items-center bg-[#0073FA] px-4 py-4">
+            <p className="text-white font-barlow text-base sm:text-lg font-semibold leading-loose text-center max-w-screen-md">
+                No long waits, Our service is fast and adapts seamlessly to your current setup.
+            </p>
         </div>
 
     )

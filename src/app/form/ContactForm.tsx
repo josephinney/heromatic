@@ -36,7 +36,7 @@ export const ContactForm: React.FC = () => {
 
   return (
     <form
-      className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full"
+      className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:px-[20px]"
       onSubmit={handleSubmit}
     >
       <div className="self-start">
